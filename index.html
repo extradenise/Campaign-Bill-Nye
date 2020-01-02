@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Campaign Bill Nye</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: LightYellow;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: lightyellow;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:white;padding:5px">
+  <h4 style="text-align:center"></h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1> Bill Nye For President!</h1>
+ 
+</div>
+
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About   Bill Nye</h2>
+    <h5> Get to Know him:</h5>
+    <div class="fakeimg" style="height:200px;"> <img src= "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LVPCVYU6NA22PD6IWJAQB35BOA.jpg&w=767"></div>
+    <p>Bill Nye grew up with you. He was the person you went to when you needed help. Either with homework, equations, anything, he was there. One click away. Now its your turn to help. Vote Bill Nye for President!</p>
+    <h3>Experience:</h3>
+    <p>Bill Nye is highly qualified to run for president. After all he did complete the following.</p>
+    <div class="fakeimg" style="height:100px;"> - He was the CEO of the Planetary Society and helped develop sundials for the Mars Exploration Rover missions</div><br>
+    <div class="fakeimg" style="height:100px;"> - Bill Nye was a mechanical engineer at Boeing. While he was there, he invented the hydraulic pressure resonance suppressor tube used in more than 700 airplanes.</div><br>
+    <div class="fakeimg" style="height:100px;"> - After all Nye has recieved more than 5 awards. From " Best in science" to a washington award.</div><br>
+  </div>
+  <div class="main">
+    <h2>Bill Nye for President!</h2>
+    <h5>You're friend, your teacher, and someone you can trust.</h5>
+    <div class="Headshot" style="height:200px;"><img src= "https://news.drake.edu/wp-content/uploads/2016/02/Bill-Nye-high-res-headshot.jpg"></div>
+
+    <p> </p>
+    <br>
+    <h2>Bill Nye For President!</h2>
+    <h5> The person you grew up with, the one your teachers used in class when they needed a video to help them explain a tough topic easily.</h5>
+    <div class="fakeimg" style="height:200px;"><img src="https://billnye.com/img/billnye-image4.jpg"></div>
+    <p>Vote <strong>Bill nye </strong>for President! You wont regret it.</p>
+   
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Bill Nye For President!</h2>
+</div>
+
+</body>
+</html>
+
